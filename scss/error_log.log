@@ -1,0 +1,9 @@
+10/22/20 9:00:00: styles.scss - unexpected }: failed at `blockquote{` /home/nypapadmin/nypap.org/wp-content/themes/nypap/scss/includes/mcaneny.scss on line 12
+10/22/20 9:03:11: styles.scss - Undefined variable $light-gray: line: 7
+10/22/20 9:03:17: styles.scss - Undefined variable $light-gray: line: 7
+11/05/20 9:47:43: styles.scss - parse error: failed at `margin-r` /home/nypapadmin/nypap.org/wp-content/themes/nypap/scss/styles.scss on line 1929
+01/15/21 5:49:38: styles.scss - parse error: failed at `s` /home/nypapadmin/nypap.org/wp-content/themes/nypap/scss/styles.scss on line 7
+01/15/21 5:50:23: styles.scss - parse error: failed at `s` /home/nypapadmin/nypap.org/wp-content/themes/nypap/scss/styles.scss on line 7
+01/15/21 5:50:30: styles.scss - parse error: failed at `s` /home/nypapadmin/nypap.org/wp-content/themes/nypap/scss/styles.scss on line 7
+01/15/21 5:51:20: styles.scss - parse error: failed at `s` /home/nypapadmin/nypap.org/wp-content/themes/nypap/scss/styles.scss on line 7
+05/03/24 2:33:43: style.scss - unclosed block: failed at `` /home/nypapadmin/nypap.org/wp-content/themes/nypap-backup-sep21-2023/scss/style.scss on line 1080, at column 0

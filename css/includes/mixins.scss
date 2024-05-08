@@ -1,0 +1,23 @@
+@mixin transition($x...){
+  -webkit-transition: $x;
+  -moz-transition: $x;
+  -ms-transition: $x;
+  -o-transition: $x;
+  transition: $x;
+}
+
+//fonts
+
+$futura: 'FuturaStd-Medium', Helvetica, arial, sans-serif;
+$memphis: 'MemphisLTStd-Bold', Times New Roman, serif;
+
+//colors
+$red: #ef3d36;
+$light-gray: #dbdcd6;
+$white: #ffffff;
+$black: #000000;
+$dark-gray: #111111;
+$light-brown: #baa68d;
+$super-light-gray: #c5c4c0;
+$medium-gray: #989792;
+$medium-gray2: #7d7d7d;

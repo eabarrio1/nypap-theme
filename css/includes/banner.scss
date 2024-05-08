@@ -1,0 +1,82 @@
+@import 'mixins';
+
+#banner {
+    background: #000;
+    margin-bottom: 25px;
+    position: relative;
+    width: 100%;
+    z-index: 101;
+    top: 0px;
+
+    &.hidden{
+      @include transition(top .4s 1s);
+      top: -100px;
+    }
+
+    &.show{
+      top: 0px;
+    }
+  
+    /*media q*/
+  
+    .site-tagline {
+      color: #fff;
+      font-family: 'MemphisLTStd-Bold';
+      font-size: 1.1em;
+      line-height: 1.3em;
+      padding: 1.5em 0;
+      overflow: auto;
+
+      a{
+        color: #ffffff;
+      }
+  
+      .button {
+        height: 45px;
+        line-height: 45px;
+        padding: 0px 20px;
+        float: none;
+        margin-top: 10px;
+      }
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+
+    #page{
+      padding-top: 110px;
+    }
+    
+    #banner {
+      margin-bottom: 50px;
+      position: fixed;
+
+      .site-tagline {
+        line-height: 1.3em;
+        padding: 1.5em 2em;
+        overflow: initial;
+        
+        .button {
+          float: right;
+          margin-top: -19px;
+          height: 55px;
+          line-height: 55px;
+        }
+
+      }
+      
+    }
+
+  }  
+
+  @media only screen and (min-width: 1200px) {
+
+    #banner {
+      margin-bottom: 70px;
+  
+      .site-tagline {
+        line-height: 1em;
+        padding: 1.75em 0;
+      }
+    }
+}
