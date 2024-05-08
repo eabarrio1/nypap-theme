@@ -99,7 +99,7 @@
 				?>							
 		</div>
 	</div>
-	<!-- #content -->
+	<!-- #content ELENA SEARCH FOR THIS MAY 8 -->
 </div>
 <!-- #main-content -->
 <?php get_footer(); ?>
